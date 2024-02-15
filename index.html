@@ -9,7 +9,29 @@
     <form action="https://formspree.io/f/xayrobep" method="post">
         <label>email</label><br>
         <input type="text" placeholder="Digite seu email" required="required" name="email"><br>
-        <textarea name="texto" cols="10" rows="20"></textarea>
+        <textarea name="texto" cols="10" rows="5"></textarea><br>
+        <label>esportes q vc pratica</label><br>
+        <ul>
+            <li><input type="checkbox" name="judo" value="sim">judo</li>
+            <li><input type="checkbox" name="futebol" value="sim"> futebol</li>
+        </ul>
+        <p>
+            <label >escolha uma cor</label><br>
+            <ul>
+                <li><input type="radio" name="cor favorita" value="vermelho">vermelho</li>
+                <li><input type="radio" name="cor favorita" value="amarelo">amarelo</li>
+                <li><input type="radio" name="cor favorita" value="verde">verde</li>
+            </ul>
+        </p>
+        <p>
+            <label >cidade</label> <br>
+            <select name="cidade">
+                <option >sao paulo</option>
+                <option >rio de janeiro</option>
+                <option >brasilias</option>
+            </select>            
+        </p>
+        <button type="submit">enviar dados</button>
     </form>
     
 </body>
